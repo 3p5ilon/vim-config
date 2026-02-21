@@ -44,9 +44,9 @@ cp .vimrc ~/.vimrc
 
 ```bash
 vim +PlugInstall +qall
-```
 
-(Or run `:PlugInstall` inside Vim)
+# (Or run :PlugInstall inside Vim)
+```
 
 5. Add custom C++ snippets:
 

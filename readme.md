@@ -36,8 +36,8 @@ cp .vimrc ~/.vimrc
 3. Install [vim-plug](https://github.com/junegunn/vim-plug) (plugin manager):
 
 ```bash
-   curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 4. Install plugins:
@@ -48,6 +48,8 @@ vim +PlugInstall +qall
 ```
 
 5. Add [jellybeans](https://github.com/nanotech/jellybeans.vim) colorscheme:
+
+You can use your favorite color scheme – just change `colorscheme` in `.vimrc`.
 
 ```bash
 mkdir -p ~/.vim/colors

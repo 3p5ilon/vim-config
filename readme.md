@@ -23,8 +23,8 @@ The header is typically located at:
 1. Clone this repo:
 
 ```bash
-git clone https://github.com/3p5ilon/vim-config.git
-cd vim-config
+git clone https://github.com/3p5ilon/cpvim.git
+cd cpvim
 ```
 
 2. Copy vimrc to your home directory:
